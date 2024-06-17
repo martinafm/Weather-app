@@ -4,7 +4,7 @@ Weather application
 
 Take a look at the following [description](#description) and [features](#features) of the project!
 
-Click [this](https://martinafm.github.io/weather-app/) link to see it live in your browser.
+Click [this](https://martinafm.github.io/Weather-app/) link to see it live in your browser.
 
 ![Two mobile phones with different views of WeatherApp](img/project.png)
 
