@@ -35,7 +35,7 @@ I used free [Open Weather Map API](https://openweathermap.org/) to create this p
 - search results are in Polish (parameter lang)
 - unit temperature adjusted to Celcius (by default unit is Kalvin)
 - project shows current temperature, feels like temperature, humidity, pressure, wind speed
-- background and weather icon change according to weather conditions
+- background and weather icon change according to weather conditions - look here -> https://openweathermap.org/weather-conditions
 - error handling
 - additionally project shows also current date
 - follows Mobile First rule
