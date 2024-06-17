@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Pogoda</title>
+		<link
+			rel="icon"
+			href="img/favicon.png"
+			type="image/x-icon" />
+		<!-- <a href="https://www.freepik.com/search">Icon by BizzBox</a> -->
+
+		<link
+			rel="stylesheet"
+			href="css/style.css" />
+		<script
+			src="index.js"
+			defer></script>
+		<script
+			src="https://kit.fontawesome.com/cd4426d543.js"
+			crossorigin="anonymous"></script>
+	</head>
+	<body>
+        <div class="overlay"></div>
+		<main>
+			<section class="weather-info">
+				<div class="weather-pre-info">
+					<div>
+						<i class="fa-solid fa-location-dot"></i>
+						<p id="city"></p>
+					</div>
+					<div>
+                        <p><span id="day"></span><span id="date"></span></p>
+						<i class="fa-regular fa-calendar"></i>
+					</div>
+				</div>
+
+				<form id="form">
+					<label
+						for="location"
+						aria-label="Wprowadź lokalizację"></label>
+					<input
+						id="location"
+						type="text"
+						placeholder="Wprowadź lokalizację"
+						required />
+					<button
+						type="submit"
+						aria-label="Szukaj">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</button>
+                    <p id="error-msg"></p>
+				</form>
+
+				<div class="weather-icon">
+                </div>
+
+				<p class="temp">
+					<span id="temp"></span>
+				</p>
+				<p id="desc"></span>
+				<p class="feelTemp">
+					<span id="desc"></span>
+					Odczuwalna: <span id="feels-like"></span>
+				</p>
+				<div class="weather-details">
+					<div
+						class="weather-detail-box"
+						aria-label="Wilgotność"
+						title="Wilgotność">
+						<i class="fa-solid fa-droplet"></i>
+						<span id="hum"></span>
+					</div>
+					<div
+						class="weather-detail-box"
+						aria-label="Ciśnienie"
+						title="Ciśnienie">
+						<i class="fa-solid fa-arrow-trend-up"></i>
+						<span id="pressure"></span>
+					</div>
+					<div
+						class="weather-detail-box"
+						aria-label="Wiatr"
+						title="Wiatr">
+						<i class="fa-solid fa-wind"></i>
+						<span id="wind"></span>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
